@@ -1,0 +1,26 @@
+npm init
+src folder ->app.ts file
+npm i @types/express
+npm install typescript --save
+npm install @types/node
+npx tsc --init
+ts config 
+  root dir src
+  allowjs true
+  source map true
+  out dir dist
+  no implicityany true
+npm i rimraf
+add below perameter in scripts(package.json)
+     "clean": "rimraf dist/",
+    "start": "tsc && nodemon ./dist/server.js",
+    "prestart": "npm run clean && tsc"
+
+npm i @types/bcrypt
+npm install -D @types/node
+npm install --save @types/jsonwebtoken
+npm i @types/passport-jwt
+npm i @types/passport
+npm i express-validator
+npm i dotenv
+npm i @types/express
